@@ -29,3 +29,36 @@ README - pyBank
   Output the answers to a txtfile to later upload to github.
 
   
+README - pyPoll
+
+  Initially included imports for OS and CSV. 
+
+  Then specified path for botht the CSV file and Txt File. 
+
+  Added formula to read the CSV and convert it to a list
+
+  Determined the header to exclude from calculations
+
+  Needed to include values for each term used in formulas below 
+
+  Needed to create lists for each column, and results lists
+
+  Created first loop to loop through rows in the CSV file
+
+  Specified the row for each list created above, and appended each list 
+
+  Calculated total votes by counting the length of the ballot ID column
+
+  Then looped through each candidate and added in if formula to determine each candidted voted for
+
+  Added in "X" to take the length of candidate names. If printing, result shows as 3 correctly counting the total # of names. 
+
+  Created a second loop to determine each candidate, and their total # of votes within the range. 
+
+  Added in third loop to determine the winner, loser, and percentage for each. Used if formula to determine which candidate had the most votes, the percentage of votes they won, and how many votes they had total. 
+
+  Created foruth loop to display results. Made a list cith the names, percentage, and total votes. After this loop, added electionResults to include "\n" to split into separate rows and join each result matching prompt. 
+
+  Created a formula with f strings to print results
+
+  added refults to text file
